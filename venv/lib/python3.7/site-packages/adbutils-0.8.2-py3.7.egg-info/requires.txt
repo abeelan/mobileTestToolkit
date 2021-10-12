@@ -1,0 +1,6 @@
+whichcraft
+requests
+six
+deprecation<3.0,>=2.0.6
+retry>=0.9
+apkutils2<2.0,>=1.0.0

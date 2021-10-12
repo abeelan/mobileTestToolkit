@@ -1,0 +1,268 @@
+[ I 210910 09:54:09 stacked_adbkit:345 ] Device checking... Now device list: ['fb4e559e']
+[ D 210910 09:54:13 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ D 210910 09:54:13 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ D 210910 09:54:43 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ D 210910 09:54:43 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ I 210910 09:54:43 adbkit:184 ] 进行无线连接 ==> 192.168.125.11:5555
+[ I 210910 09:54:43 systemer:61 ] [ shell ] adb tcpip 5555
+[ I 210910 09:54:43 systemer:70 ] restarting in TCP mode port: 5555
+[ I 210910 09:54:43 systemer:61 ] [ shell ] adb connect 192.168.125.11:5555
+[ I 210910 09:54:44 systemer:70 ] connected to 192.168.125.11:5555
+[ I 210910 09:54:44 stacked_adbkit:345 ] Device checking... Now device list: ['192.168.125.11:5555']
+[ D 210910 09:54:44 adbkit:51 ] AdbKit(serial=192.168.125.11:5555)
+[ I 210910 09:56:35 stacked_adbkit:345 ] Device checking... Now device list: ['GBG5T19731003744', '192.168.125.11:5555']
+[ D 210910 09:56:39 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 09:56:39 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.frame.ui.ActFragmentContent', 'pid': 8072}
+[ I 210910 09:56:40 adbkit:343 ] Reset APP ==> com.esbook.reader
+[ I 210910 09:56:40 adbkit:345 ] Restart APP ==> com.esbook.reader
+[ D 210910 09:56:50 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 09:56:51 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.frame.ui.ActFragmentContent', 'pid': 9141}
+[ I 210910 09:56:51 adbkit:343 ] Reset APP ==> com.esbook.reader
+[ I 210910 09:56:51 adbkit:345 ] Restart APP ==> com.esbook.reader
+[ D 210910 09:57:46 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 09:57:46 adbkit:327 ] {'package': 'com.android.packageinstaller', 'activity': '.InstallInstalling', 'pid': 11610}
+[ I 210910 09:57:56 adbkit:343 ] Reset APP ==> com.android.packageinstaller
+[ I 210910 09:57:57 adbkit:345 ] Restart APP ==> com.android.packageinstaller
+[ D 210910 09:58:12 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 09:58:12 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.web.ActEasouShengMing', 'pid': 13725}
+[ I 210910 09:58:12 adbkit:343 ] Reset APP ==> com.esbook.reader
+[ I 210910 09:58:13 adbkit:345 ] Restart APP ==> com.esbook.reader
+[ D 210910 09:58:16 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 09:58:16 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.ActLoading', 'pid': 14406}
+[ D 210910 09:58:16 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ I 210910 09:58:16 stacked_adbkit:504 ] 卸载当前应用 >> com.esbook.reader
+[ D 210910 10:00:11 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 10:00:11 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.frame.ui.ActFragmentContent', 'pid': 14933}
+[ I 210910 10:00:11 adbkit:343 ] Reset APP ==> com.esbook.reader
+[ I 210910 10:00:12 adbkit:345 ] Restart APP ==> com.esbook.reader
+[ D 210910 10:10:41 adbkit:51 ] AdbKit(serial=192.168.125.11:5555)
+[ D 210910 10:10:41 adbkit:51 ] AdbKit(serial=192.168.125.11:5555)
+[ I 210910 10:10:45 systemer:61 ] [ shell ] open /Users/lan/workspace/pythonProject/estoolkit_qt_2.0/screen/oppo_210910_101041.png
+[ D 210910 10:29:38 adbkit:51 ] AdbKit(serial=192.168.125.11:5555)
+[ D 210910 10:29:39 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.ActNovel', 'pid': 32191}
+[ I 210910 10:29:39 adbkit:343 ] Reset APP ==> com.esbook.reader
+[ I 210910 10:29:40 adbkit:345 ] Restart APP ==> com.esbook.reader
+[ D 210910 10:31:42 adbkit:51 ] AdbKit(serial=192.168.125.11:5555)
+[ D 210910 10:31:43 adbkit:327 ] {'package': 'com.coloros.wirelesssettings', 'activity': '.OppoWirelessSettingsActivity', 'pid': 28497}
+[ I 210910 10:31:43 adbkit:343 ] Reset APP ==> com.coloros.wirelesssettings
+[ I 210910 10:31:43 adbkit:345 ] Restart APP ==> com.coloros.wirelesssettings
+[ D 210910 10:31:48 adbkit:51 ] AdbKit(serial=192.168.125.11:5555)
+[ D 210910 10:31:49 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.ActNovel', 'pid': 6680}
+[ I 210910 10:31:49 adbkit:343 ] Reset APP ==> com.esbook.reader
+[ I 210910 10:31:49 adbkit:345 ] Restart APP ==> com.esbook.reader
+[ D 210910 10:48:15 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 10:48:15 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.ActNovel', 'pid': 16948}
+[ I 210910 10:48:15 adbkit:343 ] Reset APP ==> com.esbook.reader
+[ I 210910 10:48:16 adbkit:345 ] Restart APP ==> com.esbook.reader
+[ I 210910 16:37:05 stacked_adbkit:345 ] Device checking... Now device list: ['fb4e559e']
+[ D 210910 16:37:08 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ D 210910 16:37:08 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.ActNovel', 'pid': 15964}
+[ D 210910 16:37:08 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ I 210910 16:37:09 stacked_adbkit:504 ] 卸载当前应用 >> com.esbook.reader
+[ D 210910 16:37:16 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ D 210910 16:37:16 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ I 210910 16:37:16 stacked_adbkit:386 ] 安装链接：http://scm3.evbj.appeasou.com/test2/app-app/android/esbook/5.0.0/5.0.0.6/online/esbook_5.0.0_forEasou_B4.20.1-huidu-171105_5.0.0.6_20210910-153837_TBL/esbooks-5.0.0.6-nice_20210910153837.apk
+[ I 210910 16:37:16 systemer:61 ] [ shell ] python3 -m adbutils -s fb4e559e -i http://scm3.evbj.appeasou.com/test2/app-app/android/esbook/5.0.0/5.0.0.6/online/esbook_5.0.0_forEasou_B4.20.1-huidu-171105_5.0.0.6_20210910-153837_TBL/esbooks-5.0.0.6-nice_20210910153837.apk
+[ D 210910 16:38:01 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ D 210910 16:38:01 adbkit:51 ] AdbKit(serial=fb4e559e)
+[ I 210910 16:38:01 stacked_adbkit:386 ] 安装链接：http://scm3.evbj.appeasou.com/test2/app-app/android/esbook/5.0.0/5.0.0.6/online/esbook_5.0.0_forEasou_B4.20.1-huidu-171105_5.0.0.6_20210910-153837_TBL/esbooks-5.0.0.6-nice_20210910153837.apk
+[ I 210910 16:38:01 systemer:61 ] [ shell ] python3 -m adbutils -s fb4e559e -i http://scm3.evbj.appeasou.com/test2/app-app/android/esbook/5.0.0/5.0.0.6/online/esbook_5.0.0_forEasou_B4.20.1-huidu-171105_5.0.0.6_20210910-153837_TBL/esbooks-5.0.0.6-nice_20210910153837.apk
+[ I 210910 16:38:52 systemer:70 ] tmpfile path: /var/folders/14/v9cgwqf13t92hd0yx8zk67t80000gn/T/tmpn0r9eqkp.apk
+[ I 210910 16:38:52 systemer:70 ] push to /data/local/tmp/tmp-1631263082272.apk
+[ I 210910 16:38:52 systemer:70 ] 1.4%	0.4 MB/s [0.4 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 2.4%	0.3 MB/s [0.6 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 2.8%	0.1 MB/s [0.8 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 4.1%	0.3 MB/s [1.1 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 5.8%	0.5 MB/s [1.6 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 7.7%	0.5 MB/s [2.1 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 8.1%	0.1 MB/s [2.2 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 9.7%	0.4 MB/s [2.6 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 12.6%	0.8 MB/s [3.4 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 15.4%	0.7 MB/s [4.2 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 17.9%	0.7 MB/s [4.8 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 21.2%	0.9 MB/s [5.8 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 25.0%	1.0 MB/s [6.8 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 27.8%	0.7 MB/s [7.5 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 27.9%	0.0 MB/s [7.6 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 29.7%	0.5 MB/s [8.1 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 32.3%	0.7 MB/s [8.7 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 34.5%	0.6 MB/s [9.4 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 37.6%	0.8 MB/s [10.2 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 40.4%	0.8 MB/s [11.0 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 42.8%	0.6 MB/s [11.6 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 44.7%	0.5 MB/s [12.1 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 47.3%	0.7 MB/s [12.8 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 49.5%	0.6 MB/s [13.4 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 52.3%	0.8 MB/s [14.2 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 55.1%	0.8 MB/s [14.9 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 58.1%	0.8 MB/s [15.8 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 61.5%	0.9 MB/s [16.7 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 64.8%	0.9 MB/s [17.6 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 67.9%	0.8 MB/s [18.4 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 71.1%	0.9 MB/s [19.3 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 74.6%	0.8 MB/s [20.2 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 76.1%	0.4 MB/s [20.6 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 78.8%	0.7 MB/s [21.4 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 82.2%	0.9 MB/s [22.3 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 85.3%	0.8 MB/s [23.1 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 86.8%	0.4 MB/s [23.5 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 88.8%	0.6 MB/s [24.1 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 91.6%	0.7 MB/s [24.8 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 94.0%	0.6 MB/s [25.5 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 95.8%	0.4 MB/s [26.0 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 98.0%	0.6 MB/s [26.6 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 100.0%	0.7 MB/s [27.1 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] 100.0%	0.0 MB/s [27.1 MB/27.1 MB]
+[ I 210910 16:38:52 systemer:70 ] packageName: com.esbook.reader
+[ I 210910 16:38:52 systemer:70 ] mainActivity: com.esbook.reader.activity.ActLoading
+[ I 210910 16:38:52 systemer:70 ] apkVersion: 5.0.0.6
+[ I 210910 16:38:52 systemer:70 ] Success pushed, time used 44 seconds
+[ I 210910 16:38:52 systemer:70 ] verify pushed apk, md5: 4701d108a2adaf9da19a4450f5a2695a, size: 27.1 MB
+[ I 210910 16:38:52 systemer:70 ] Uninstall app first
+[ I 210910 16:38:52 systemer:70 ] install to android system ...
+[ I 210910 16:38:52 systemer:70 ] Failure Unknown
+[ I 210910 16:38:52 systemer:70 ] Remote apk is not removed. Manually install command:
+[ I 210910 16:38:52 systemer:70 ] adb shell pm install -r -t /data/local/tmp/com.esbook.reader-5.0.0.6.apk
+[ I 210910 16:43:18 stacked_adbkit:345 ] Device checking... Now device list: ['fb4e559e']
+[ I 210910 16:43:31 stacked_adbkit:345 ] Device checking... Now device list: ['GBG5T19731003744', '192.168.125.11:5555']
+[ D 210910 16:43:33 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 16:43:34 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.ActSetting', 'pid': 29204}
+[ D 210910 16:43:34 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ I 210910 16:43:34 stacked_adbkit:504 ] 卸载当前应用 >> com.esbook.reader
+[ D 210910 16:43:38 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 16:43:38 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ I 210910 16:43:38 stacked_adbkit:386 ] 安装链接：http://scm3.evbj.appeasou.com/test2/app-app/android/esbook/5.0.0/5.0.0.6/online/esbook_5.0.0_forEasou_B4.20.1-huidu-171105_5.0.0.6_20210910-153837_TBL/esbooks-5.0.0.6-nice_20210910153837.apk
+[ I 210910 16:43:38 systemer:61 ] [ shell ] python3 -m adbutils -s GBG5T19731003744 -i http://scm3.evbj.appeasou.com/test2/app-app/android/esbook/5.0.0/5.0.0.6/online/esbook_5.0.0_forEasou_B4.20.1-huidu-171105_5.0.0.6_20210910-153837_TBL/esbooks-5.0.0.6-nice_20210910153837.apk
+[ I 210910 16:44:12 systemer:70 ] tmpfile path: /var/folders/14/v9cgwqf13t92hd0yx8zk67t80000gn/T/tmp5ref8i3e.apk
+[ I 210910 16:44:12 systemer:70 ] push to /data/local/tmp/tmp-1631263418940.apk
+[ I 210910 16:44:12 systemer:70 ] 7.3%	2.0 MB/s [2.0 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 15.1%	2.1 MB/s [4.1 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 24.1%	2.4 MB/s [6.5 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 32.9%	2.4 MB/s [8.9 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 39.3%	1.7 MB/s [10.7 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 46.5%	1.9 MB/s [12.6 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 52.2%	1.5 MB/s [14.2 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 54.9%	0.7 MB/s [14.9 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 58.0%	0.8 MB/s [15.7 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 61.9%	1.1 MB/s [16.8 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 63.8%	0.5 MB/s [17.3 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 66.2%	0.7 MB/s [18.0 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 69.0%	0.7 MB/s [18.7 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 72.6%	1.0 MB/s [19.7 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 75.4%	0.7 MB/s [20.4 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 77.3%	0.5 MB/s [20.9 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 80.0%	0.7 MB/s [21.7 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 82.5%	0.7 MB/s [22.4 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 84.3%	0.5 MB/s [22.9 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 85.4%	0.3 MB/s [23.1 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 87.1%	0.5 MB/s [23.6 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 89.5%	0.6 MB/s [24.3 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 90.8%	0.3 MB/s [24.6 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 91.7%	0.2 MB/s [24.8 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 92.8%	0.3 MB/s [25.2 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 93.3%	0.1 MB/s [25.3 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 94.0%	0.2 MB/s [25.5 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 95.5%	0.4 MB/s [25.9 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 97.1%	0.4 MB/s [26.3 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 98.9%	0.5 MB/s [26.8 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 99.9%	0.3 MB/s [27.1 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 100.0%	0.1 MB/s [27.1 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] 100.0%	0.0 MB/s [27.1 MB/27.1 MB]
+[ I 210910 16:44:12 systemer:70 ] packageName: com.esbook.reader
+[ I 210910 16:44:12 systemer:70 ] mainActivity: com.esbook.reader.activity.ActLoading
+[ I 210910 16:44:12 systemer:70 ] apkVersion: 5.0.0.6
+[ I 210910 16:44:12 systemer:70 ] Success pushed, time used 32 seconds
+[ I 210910 16:44:12 systemer:70 ] verify pushed apk, md5: 4701d108a2adaf9da19a4450f5a2695a, size: 27.1 MB
+[ I 210910 16:44:12 systemer:70 ] Uninstall app first
+[ I 210910 16:44:12 systemer:70 ] install to android system ...
+[ I 210910 16:44:12 systemer:70 ] Success installed, time used 1 seconds
+[ I 210910 16:44:12 systemer:70 ] Launch app: com.esbook.reader/com.esbook.reader.activity.ActLoading
+[ D 210910 16:49:34 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 16:49:34 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.frame.ui.ActFragmentContent', 'pid': 9771}
+[ I 210910 16:49:34 adbkit:343 ] Reset APP ==> com.esbook.reader
+[ I 210910 16:49:35 adbkit:345 ] Restart APP ==> com.esbook.reader
+[ D 210910 17:23:06 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 17:23:06 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.ActNovel', 'pid': 14713}
+[ D 210910 17:23:07 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ I 210910 17:23:07 stacked_adbkit:504 ] 卸载当前应用 >> com.esbook.reader
+[ D 210910 17:23:08 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 17:23:08 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ I 210910 17:23:08 stacked_adbkit:386 ] 安装链接：http://scm3.evbj.appeasou.com/test2/app-app/android/esbook/5.0.0/5.0.0.6/online/esbook_5.0.0_forEasou_B4.20.1-huidu-171105_5.0.0.6_20210910-153837_TBL/esbooks-5.0.0.6-nice_20210910153837.apk
+[ I 210910 17:23:08 systemer:61 ] [ shell ] python3 -m adbutils -s GBG5T19731003744 -i http://scm3.evbj.appeasou.com/test2/app-app/android/esbook/5.0.0/5.0.0.6/online/esbook_5.0.0_forEasou_B4.20.1-huidu-171105_5.0.0.6_20210910-153837_TBL/esbooks-5.0.0.6-nice_20210910153837.apk
+[ I 210910 17:24:12 systemer:70 ] tmpfile path: /var/folders/14/v9cgwqf13t92hd0yx8zk67t80000gn/T/tmpd4nxibv6.apk
+[ I 210910 17:24:12 systemer:70 ] push to /data/local/tmp/tmp-1631265789168.apk
+[ I 210910 17:24:12 systemer:70 ] 5.1%	1.4 MB/s [1.4 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 6.3%	0.3 MB/s [1.7 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 7.4%	0.3 MB/s [2.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 8.4%	0.3 MB/s [2.3 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 9.4%	0.3 MB/s [2.5 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 10.3%	0.2 MB/s [2.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 11.2%	0.2 MB/s [3.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 12.3%	0.3 MB/s [3.3 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 14.2%	0.5 MB/s [3.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 16.4%	0.6 MB/s [4.5 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 19.0%	0.7 MB/s [5.1 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 20.8%	0.5 MB/s [5.6 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 22.0%	0.3 MB/s [6.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 23.4%	0.4 MB/s [6.3 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 25.0%	0.4 MB/s [6.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 26.3%	0.3 MB/s [7.1 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 27.6%	0.3 MB/s [7.5 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 28.5%	0.2 MB/s [7.7 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 29.7%	0.3 MB/s [8.1 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 31.0%	0.3 MB/s [8.4 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 32.5%	0.4 MB/s [8.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 33.3%	0.2 MB/s [9.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 34.5%	0.3 MB/s [9.4 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 35.8%	0.3 MB/s [9.7 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 36.7%	0.2 MB/s [10.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 37.9%	0.3 MB/s [10.3 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 39.1%	0.3 MB/s [10.6 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 39.9%	0.2 MB/s [10.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 41.1%	0.3 MB/s [11.1 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 42.1%	0.3 MB/s [11.4 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 43.7%	0.4 MB/s [11.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 45.9%	0.6 MB/s [12.4 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 47.2%	0.4 MB/s [12.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 48.1%	0.2 MB/s [13.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 49.0%	0.2 MB/s [13.3 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 50.3%	0.3 MB/s [13.6 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 52.1%	0.5 MB/s [14.1 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 54.5%	0.6 MB/s [14.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 56.4%	0.5 MB/s [15.3 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 59.1%	0.7 MB/s [16.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 61.5%	0.6 MB/s [16.7 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 64.0%	0.7 MB/s [17.3 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 66.5%	0.7 MB/s [18.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 68.4%	0.5 MB/s [18.5 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 71.0%	0.7 MB/s [19.3 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 73.6%	0.7 MB/s [20.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 75.4%	0.5 MB/s [20.5 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 77.5%	0.5 MB/s [21.0 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 80.2%	0.7 MB/s [21.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 83.5%	0.9 MB/s [22.6 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 85.5%	0.5 MB/s [23.2 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 87.6%	0.5 MB/s [23.7 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 89.2%	0.4 MB/s [24.2 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 90.6%	0.4 MB/s [24.5 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 92.0%	0.4 MB/s [24.9 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 93.5%	0.4 MB/s [25.3 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 95.2%	0.5 MB/s [25.8 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 96.8%	0.4 MB/s [26.2 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 98.1%	0.3 MB/s [26.6 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 99.2%	0.3 MB/s [26.9 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 100.0%	0.4 MB/s [27.1 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] 100.0%	0.0 MB/s [27.1 MB/27.1 MB]
+[ I 210910 17:24:12 systemer:70 ] packageName: com.esbook.reader
+[ I 210910 17:24:12 systemer:70 ] mainActivity: com.esbook.reader.activity.ActLoading
+[ I 210910 17:24:12 systemer:70 ] apkVersion: 5.0.0.6
+[ I 210910 17:24:12 systemer:70 ] Success pushed, time used 61 seconds
+[ I 210910 17:24:12 systemer:70 ] verify pushed apk, md5: 4701d108a2adaf9da19a4450f5a2695a, size: 27.1 MB
+[ I 210910 17:24:12 systemer:70 ] Uninstall app first
+[ I 210910 17:24:12 systemer:70 ] install to android system ...
+[ I 210910 17:24:12 systemer:70 ] Success installed, time used 1 seconds
+[ I 210910 17:24:12 systemer:70 ] Launch app: com.esbook.reader/com.esbook.reader.activity.ActLoading
+[ D 210910 17:37:22 adbkit:51 ] AdbKit(serial=GBG5T19731003744)
+[ D 210910 17:37:23 adbkit:327 ] {'package': 'com.esbook.reader', 'activity': '.activity.frame.ui.ActFragmentContent', 'pid': 18187}
+[ I 210910 17:37:23 adbkit:343 ] Reset APP ==> com.esbook.reader
+[ I 210910 17:37:23 adbkit:345 ] Restart APP ==> com.esbook.reader

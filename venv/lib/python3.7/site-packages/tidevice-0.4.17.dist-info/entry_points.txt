@@ -1,0 +1,3 @@
+[console_scripts]
+tidevice = tidevice.__main__:main
+
