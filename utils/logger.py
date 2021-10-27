@@ -122,6 +122,8 @@ class Logger:
         # self.logger.addFil(filter_app)
 
 
+Logger(level=logging.DEBUG)
+
 
 if __name__ == '__main__':
     Logger()

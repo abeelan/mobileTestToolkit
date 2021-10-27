@@ -167,17 +167,16 @@ class AdbKit:
         output = self.adb_device.shell("ifconfig wlan0")
         ip = re.findall(r'inet\s*addr:(.*?)\s', output, re.DOTALL)
         if not ip:
-            raise RuntimeError(output)
+            return ""
         return ip[0]
 
     def connect(self, ip=None, port=5555) -> str:
         """基于 WI-FI 连接设备"""
         # TODO：判断手机与PC是否为同一网段，如果不是给出提示
         if not ip:
-            try:
-                ip = self.ip()
-            except RuntimeError as e:
-                return str(e)
+            ip = self.ip()
+            if not ip:
+                return '无线连接失败，请输入 IP 地址后重试！'
 
         # 设置端口
         dev = f"{ip.strip()}:{str(port).strip()}"

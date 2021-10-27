@@ -6,6 +6,8 @@
 - fastbot-android：https://github.com/bytedance/Fastbot_Android 
 - fastbot-ios：https://github.com/bytedance/Fastbot_iOS
 
+![效果图](config/gui.png)
+
 # 安装
 ```shell
 # 工具类

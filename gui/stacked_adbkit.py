@@ -343,7 +343,7 @@ class AdbKitPage:
         self.cmb_device_choose.addItems(devices_list)
         self.cmb_device_choose.setCurrentIndex(0)
         logging.info(f"Device checking... Now device list: {devices_list}")
-        self.dialog.about(f"Now device list: {devices_list}")
+        # self.dialog.about(f"Now device list: \n{devices_list}")
 
     def clicked_get_device_info(self):
         """获取设备信息"""
@@ -357,6 +357,7 @@ class AdbKitPage:
             edit_ip_value = self.edit_ip.text()
             edit_port_value = self.edit_port.text()
             port = 5555 if not edit_port_value else edit_port_value
+
             output = self.adb().connect(edit_ip_value, port)
 
             if "Successful" in output:

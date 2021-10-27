@@ -13,5 +13,4 @@ from gui import main_window
 
 
 if __name__ == '__main__':
-    Logger(level=logging.DEBUG)
     main_window.main()
