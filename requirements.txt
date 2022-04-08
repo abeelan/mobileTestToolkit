@@ -1,8 +1,0 @@
-colorlog==4.0.2
-qtawesome==1.0.3
-PyQt5==5.13.0
-pyperclip==1.7.0
-adbutils==0.8.2
-MyQR==2.3.1
-PyYAML==5.3
-tidevice==0.4.17
