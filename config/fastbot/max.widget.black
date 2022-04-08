@@ -1,0 +1,14 @@
+[
+{
+    "activity":"com.esbook.reader.activity.web.ActUserVipWeb",
+    "xpath": "//*[@text='立即开通']"
+},
+{
+    "activity":"com.esbook.reader.activity.frame.ui.ActFragmentContent",
+    "xpath": "//*[@text='立即开通']"
+},
+{
+    "activity":"com.esbook.reader.activity.web.ActUserPayWebView",
+    "xpath": "//*[@text='立即充值']"
+}
+]

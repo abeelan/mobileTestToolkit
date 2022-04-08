@@ -1,0 +1,103 @@
+[
+{
+    "info": "启动APP，点击同意协议",
+    "prob": 1,
+    "activity":"com.esbook.reader.activity.ActLoading",
+    "times": 1,
+    "actions": [
+        {
+            "xpath":"//*[@resource-id='com.esbook.reader:id/btn_yes']",
+            "action": "CLICK",
+            "throttle": 3000
+        }
+    ]
+},
+{
+    "info": "书城页面，点击搜索框，允许执行5次",
+    "prob": 1,
+    "activity":"com.esbook.reader.activity.frame.ui.ActFragmentContent",
+    "times": 100,
+    "actions": [
+        {
+            "xpath":"//*[@resource-id='com.esbook.reader:id/rl_search_view']",
+            "text": "",
+            "action": "CLICK",
+            "throttle": 3000
+        }
+    ]
+},
+{
+    "info": "书城页面操作",
+    "prob": 1,
+    "activity":"com.esbook.reader.activity.frame.ui.ActFragmentContent",
+    "times": 10,
+    "actions": [
+        {
+            "info":"step1：点击我的tab",
+            "xpath":"//*[@resource-id='com.esbook.reader:id/tabbar']/android.widget.RelativeLayout[5]/android.widget.ImageView[1]",
+            "action": "CLICK",
+            "throttle": 3000
+        },
+        {
+             "info":"step2：点击立即登录按钮",
+            "xpath":"//*[@resource-id='com.esbook.reader:id/tv_name']",
+            "action": "CLICK",
+            "throttle": 3000
+        }
+    ]
+},
+{
+    "info": "一键登录页面",
+    "prob": 1,
+    "activity":"com.esbook.reader.activity.user.ActOneKeyLoginMain",
+    "times": 1,
+    "actions": [
+        {
+            "info":"step1：点击一键登录按钮",
+            "xpath":"//*[@resource-id='com.esbook.reader:id/ok']",
+            "action": "CLICK",
+            "throttle": 3000
+        },
+        {
+            "info":"step2：点击同意条款",
+            "xpath":"//*[@resource-id='com.esbook.reader:id/publish_stay']",
+            "action": "CLICK",
+            "throttle": 3000
+        }
+    ]
+},
+{
+    "info": "手机号登录页面",
+    "prob": 1,
+    "activity":"com.esbook.reader.activity.user.ActUserLogin",
+    "times": 1,
+    "actions": [
+        {
+            "info":"step1：点击密码登录",
+            "xpath":"//*[@resource-id='com.esbook.reader:id/tv_password_tab']",
+            "action": "CLICK",
+            "throttle": 3000
+        },
+        {
+            "info":"step2：输入账号",
+            "xpath":"//*[@resource-id='com.esbook.reader:id/edt_phone']",
+            "action": "CLICK",
+            "text":"15011013520",
+            "throttle": 3000
+        },
+        {
+            "info":"step3：输入密码",
+            "xpath":"//*[@resource-id='com.esbook.reader:id/edt_password']",
+            "action": "CLICK",
+            "text":"qqqqqq",
+            "throttle": 3000
+        },
+        {
+            "info":"step4：点击登录",
+            "xpath":"//*[@resource-id='com.esbook.reader:id/btn_login']",
+            "action": "CLICK",
+            "throttle": 3000
+        }
+    ]
+}
+]
