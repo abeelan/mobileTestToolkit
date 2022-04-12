@@ -212,6 +212,7 @@ class NotificationWindow(QListWidget):
         w.close()
         w.deleteLater()
         del item
+        self.close()
 
     @classmethod
     def _createInstance(cls):
