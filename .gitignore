@@ -7,3 +7,6 @@ logcat
 screen
 test
 *.pyc
+build/
+dist/
+main.spec

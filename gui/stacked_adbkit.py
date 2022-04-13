@@ -393,7 +393,7 @@ class AdbKitPage:
 
     def clicked_open_proxy(self):
         content = self.edit_hostname_port.text().strip()
-        host, port = content.strip(":") if content else (common.get_pc_ip(), 8888)
+        host, port = content.split(":") if content else (common.get_pc_ip(), 8888)
 
         if self.adb():
             self.adb().open_proxy(host, port)
